@@ -196,16 +196,16 @@
 
 /* ESERCIZIO 12 */
 .ex-12-top-white {
-    animation: rotazione 2s linear;
+    animation: movimento 2s linear;
     animation-iteration-count: infinite;
 }
 
 .ex-12-bottom-white {
-    animation: rotazione2 2s linear;
+    animation: movimento2 2s linear;
     animation-iteration-count: infinite;
 }
 
-@keyframes rotazione {
+@keyframes movimento {
     0% {
         top: -10px;
         left: 10%;
@@ -224,7 +224,7 @@
     }
 }
 
-@keyframes rotazione2 {
+@keyframes movimento2 {
     0% {
         bottom: -10px;
         right: 10%;
@@ -240,5 +240,62 @@
     100% {
         bottom: -10px;
         right: 10%;
+    }
+}
+
+/* ESERCIZIO 13 */
+.ex-13-top-white {
+    animation: rotazione 4s linear;
+    animation-iteration-count: infinite;
+}
+
+.ex-13-bottom-white {
+    animation: rotazione2 4s linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes rotazione {
+    0% {
+        top: -10px;
+        left: 10%;
+    }
+    25% {
+        top: -10px;
+        left: 75%;
+    }
+    50% {
+        top: 55px;
+        left: 75%;
+    }
+    75% {
+        top: 55px;
+        left: -10%;
+    }
+    100% {
+        top: -10px;
+        left: -10%;
+    }
+}
+
+@keyframes rotazione2 {
+    0% {
+        bottom: -10px;
+        right: 10%;
+    }
+    25% {
+        bottom: -10px;
+        right: 75%;
+    }
+    50% {
+        bottom: 55px;
+        right: 75%;
+    }
+    75% {
+        bottom: 55px;
+        right: -10%;
+    }
+    100% {
+        bottom: -10px;
+        right: -10%;
     }
 }
