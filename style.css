@@ -196,12 +196,12 @@
 
 /* ESERCIZIO 12 */
 .ex-12-top-white {
-    animation: rotazione 1s linear;
+    animation: rotazione 2s linear;
     animation-iteration-count: infinite;
 }
 
 .ex-12-bottom-white {
-    animation: rotazione2 1s linear;
+    animation: rotazione2 2s linear;
     animation-iteration-count: infinite;
 }
 
