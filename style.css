@@ -174,7 +174,7 @@
 }
 
 /* ESERCIZIO 11 */
-.ex-11-icon {
+.ex-11-icon:hover {
     animation: giro2 2s linear;
     animation-iteration-count: infinite;
 }
