@@ -172,3 +172,27 @@
         transform: rotate(360deg);
     }
 }
+
+/* ESERCIZIO 11 */
+.ex-11-icon {
+    animation: giro 1s linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes giro {
+    0% {
+        transform: rotate(0deg);
+    }
+    25% {
+        transform: rotate(90deg);
+    }
+    50% {
+        transform: rotate(180deg);
+    }
+    75% {
+        transform: rotate(270deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+}
