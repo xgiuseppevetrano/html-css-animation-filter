@@ -157,3 +157,18 @@
     width: 650px;
     border-radius: 20px;
 }
+
+/* ESERCIZIO 10 */
+.ex-10-icon {
+    animation: giro 1s linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes giro {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
