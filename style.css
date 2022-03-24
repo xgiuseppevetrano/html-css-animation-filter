@@ -146,3 +146,14 @@
     width: 350px;
     border-radius: 20px;
 }
+
+/* ESERCIZIO 9 */
+.ex-9-img {
+    transition: 5s;
+}
+
+.ex-9-img:hover {
+    filter: hue-rotate(90deg) brightness(0.5);
+    width: 650px;
+    border-radius: 20px;
+}
