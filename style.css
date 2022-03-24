@@ -70,3 +70,11 @@
 
 
 /* SOLUZIONI ESERCIZI */
+/* ESERCIZIO 1 */
+.ex-1-square {
+    transition: background-color 5s;
+}
+
+.ex-1-square:hover {
+    background-color: red;
+}
