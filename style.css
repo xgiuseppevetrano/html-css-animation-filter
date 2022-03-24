@@ -175,24 +175,23 @@
 
 /* ESERCIZIO 11 */
 .ex-11-icon {
-    animation: giro 1s linear;
+    animation: giro2 2s linear;
     animation-iteration-count: infinite;
 }
 
-@keyframes giro {
+@keyframes giro2 {
     0% {
         transform: rotate(0deg);
     }
     25% {
-        transform: rotate(90deg);
-    }
-    50% {
         transform: rotate(180deg);
     }
-    75% {
+    50% {
         transform: rotate(270deg);
     }
     100% {
         transform: rotate(0deg);
     }
 }
+
+/* ESERCIZIO 12 */
