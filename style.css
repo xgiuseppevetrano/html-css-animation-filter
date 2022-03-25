@@ -256,6 +256,31 @@
     }
 }
 
+/* C'era un modo più semplice per farlo
+@keyframes movimento {
+    0% {
+        left: 10%;
+    }
+    50% {
+        left: calc(100% - 60px);
+    }
+    100% {
+        left: 10%;
+    }
+}
+
+@keyframes movimento2 {
+    0% {
+        right: 20%;
+    }
+    50% {
+        right: calc(100% - 60px);
+    }
+    100% {
+        right: 20%;
+    }
+} */
+
 /* ESERCIZIO 13 */
 .ex-13-top-white {
     animation: rotazione 4s linear;
