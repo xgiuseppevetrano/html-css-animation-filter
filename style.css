@@ -107,6 +107,19 @@
 }
 
 /* ESERCIZIO 5 */
+/* Qui andava usato lo scale
+.ex-5-square {
+    transition: trasform 5s;
+}
+
+.ex-5-square:hover {
+    transform: scale(2);
+}
+
+.ex-5-square:active {
+    transform: scale(0.5);
+} */
+
 .ex-5-square {
     transition: height 5s, width 5s;
 }
